@@ -1,0 +1,224 @@
+/*html elements*/
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #66BFBF;
+  margin: 10px auto 0 auto;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p{
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover{
+  color: white;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #abdbdb;
+  border-width: 6px;
+  margin: 100px auto;
+  width: 5%;
+
+}
+
+/*Images*/
+.top-cloud {
+  height: 25%;
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  bottom: 225px;
+  height: 25%;
+  left: 375px;
+  position: absolute;
+}
+
+.dog-bone-image {
+  width: 25%;
+}
+
+.bulldog {
+  width: 10%;
+}
+
+.poisoning-image {
+  background-size: 20%;
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.sleep-image {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.rotisseriechicken-image {
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.mybigredball-image {
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.cleaning-image {
+  background-size: 20%;
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+/*Boxes DIVS Containers*/
+.top-container {
+  background-color: #eeebdd;
+  position: relative;
+  padding: 25px 0 10px 0;
+}
+
+.middle-container {
+  margin: 100px 0;
+  padding-bottom: 20px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  position: relative;
+  padding: 25px 0 20px 0;
+  width: 100%;
+}
+
+.skills {
+  margin: 50px auto 50px auto;
+}
+
+.hobbies {
+  margin: 50px auto 50px auto;
+}
+
+.profile {
+  margin: 50px auto 100px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  margin: 50px auto 40px auto;
+}
+
+/*Headings*/
+.woof-heading {
+  margin: 25px auto 25px auto;
+}
+
+.a-stinker {
+  margin: 0 0 100px 0;
+}
+
+.stink-heading {
+  text-decoration: underline;
+}
+
+/*Text Paragraphs*/
+.woof-text {
+  margin: auto;
+  width: 30%;
+}
+
+.contact-me-text{
+  margin: 40px auto 60px;
+  width: 30%;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 25px;
+  text-decoration: none;
+}
+
+.copyright{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/*Buttons*/
+.BUTTON_KXY {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #378F8F);
+  background-image: -moz-linear-gradient(top, #66BFBF, #378F8F);
+  background-image: -ms-linear-gradient(top, #66BFBF, #378F8F);
+  background-image: -o-linear-gradient(top, #66BFBF, #378F8F);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #378F8F);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  height: 9px;
+  line-height: 9px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  width: 150px;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 50px;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_KXY:hover {
+  border: solid #246868 0;
+  background: #378F8F;
+  background-image: -webkit-linear-gradient(top, #378F8F, #66BFBF);
+  background-image: -moz-linear-gradient(top, #378F8F, #66BFBF);
+  background-image: -ms-linear-gradient(top, #378F8F, #66BFBF);
+  background-image: -o-linear-gradient(top, #378F8F, #66BFBF);
+  background-image: -webkit-gradient(to bottom, #378F8F, #66BFBF);
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  text-decoration: none;
+}
